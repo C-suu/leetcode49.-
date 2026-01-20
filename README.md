@@ -432,7 +432,7 @@ strs = ["eat","tea","tan","ate","nat","bat"]
 
 ---
 
-解释一下为何`result[key].append(s)`要在`if`对应的位置，而不是循环内？解释一下`result.values()`是一个固定用法吗？即`result`是一个类，而`values()`是类里面可以调用的函数？
+# 解释一下为何`result[key].append(s)`要在`if`对应的位置，而不是循环内？解释一下`result.values()`是一个固定用法吗？即`result`是一个类，而`values()`是类里面可以调用的函数？
 
 ```python
        if key not in result:        # 如果这个钥匙还没出现过
